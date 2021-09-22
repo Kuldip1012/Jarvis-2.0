@@ -81,12 +81,6 @@ if __name__ == "__main__":
     elif 'open stackoverflow' in query:
         webbrowser.open("stackoverflow.com")
 
-    elif 'my website' in query:
-        webbrowser.open("https://onlinegovjob.in/")
-    
-    elif 'new post' in query:
-        webbrowser.open("https://onlinegovjob.in/wp-admin/post-new.php")
-
     elif 'play music' in query:
         music_dir = 'E:\\Music'
         songs = os.listdir(music_dir)
